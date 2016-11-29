@@ -107,7 +107,7 @@ nav .list-menu li a{
     position: absolute;
     display: block;
     left: 46%;
-    top: 240%;
+    top: 225%;
 }
 
 /*------------------------COLUMNAS---------------------------*/
@@ -126,46 +126,45 @@ nav .list-menu li a{
 .sector{
     background-image: url(../image/sec-2.jpg);
     width: 100%;
+    height: auto;
+    background-attachment: scroll;
+    background-position: left;
+    background-size: cover;
+    opacity: 0.9;
+   
+}
+
+
+
+.iconos ul li{
+    text-align: right;
+}
+
+.iconos ul {
+    list-style: none;
     
 }
-
-.sectordos{
-    background-color: black;
+.iconos h4 {
+    color: skyblue;
 }
 
-.sector i {
-    display: block;
+.iconos ul li i{
+    margin-right: -50px;
+    margin-top: 60px;
+    display: inline-block;
     background-color: dodgerblue;
     color: white;
     border-radius: 200px;
     font-size: 40px;
     padding: 10px;
-    position: absolute;
-    
+    }
+
+.box{
+    margin-left: 40px;
 }
 
-.icon-pencil {
-    display: block;
-    position: absolute;
-    
-    
-    
-}
-.icon-tools-2 {
-    display: block;
-    position: absolute;
-    
-}
 
-.icon-magnifying-glass{
-     display: block;
-    position: absolute;
-    
-}
 
-.iconos h4 {
-    color: skyblue;
-}
 
 /*------------------------COLUMNA3---------------------------*/
 
@@ -173,6 +172,13 @@ nav .list-menu li a{
     padding: 8% 0;
 }
 
+.separadordos{
+    text-align: center;
+    position: absolute;
+    display: block;
+    left: 47%;
+    top: 395%;
+}
 
 /*------------------------FOOTER--------------------------*/
 
@@ -202,8 +208,7 @@ footer{
     font-size: 40px;
     float: right;
     margin: 20px 0;
-    padding-left: 5px;
-    
+      
 }
 
 
