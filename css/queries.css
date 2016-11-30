@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px){
+    .sector{
+        padding-right: 50px;
+    }
+    
+    .separador{
+        display: none;
+        
+    }
+    
+    .separadordos{
+        display: none;
+    }
+    
+    .box{
+        margin-left: 0;
+    }
+    
+    .frases h2{
+        font-size:30px;
+    }
+}

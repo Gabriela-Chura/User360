@@ -107,7 +107,7 @@ nav .list-menu li a{
     position: absolute;
     display: block;
     left: 46%;
-    top: 225%;
+    top: 205%;
 }
 
 /*------------------------COLUMNAS---------------------------*/
@@ -166,6 +166,7 @@ nav .list-menu li a{
 
 
 
+
 /*------------------------COLUMNA3---------------------------*/
 
 .sectortrees {
@@ -177,7 +178,7 @@ nav .list-menu li a{
     position: absolute;
     display: block;
     left: 47%;
-    top: 395%;
+    top: 360%;
 }
 
 /*------------------------FOOTER--------------------------*/
@@ -210,6 +211,49 @@ footer{
     margin: 20px 0;
       
 }
+
+
+/*------------------------HOJA EXTERNA FORMULARIO--------------------------*/
+
+.formulario{
+    background-image: url(../image/large.jpg);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    padding: 200px 0;
+    
+}
+
+
+.formulariodos{
+    background-color: white;
+    margin: 0;
+}
+
+.azul{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 10px;
+    
+}
+
+input{
+    width: 100%;
+}
+
+label{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
