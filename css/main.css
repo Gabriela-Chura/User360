@@ -57,6 +57,35 @@ nav .list-menu li a{
     border-radius: 5px;
 }
 
+ul{
+  list-style: none;
+}
+#menu li>a{
+  
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+  font-size: 20px;
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+  opacity: 0.2;
+}
+#menu>li{
+  float: none;
+  
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+
+
 /*------------------------SERVICIOS---------------------------*/
 
 .services {
@@ -104,7 +133,7 @@ nav .list-menu li a{
     position: absolute;
     display: block;
     left: 46%;
-    top: 205%;
+    top: 222%;
 }
 
 /*------------------------COLUMNAS---------------------------*/
@@ -175,7 +204,7 @@ nav .list-menu li a{
     position: absolute;
     display: block;
     left: 47%;
-    top: 360%;
+    top: 390%;
 }
 
 /*------------------------FOOTER--------------------------*/

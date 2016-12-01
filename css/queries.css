@@ -1,4 +1,15 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 2000px){
+    .oculto{
+        visibility: hidden;
+        display: none;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 780px){
     .sector{
         padding-right: 50px;
     }
@@ -17,6 +28,26 @@
     }
     
     .frases h2{
-        font-size:30px;
+        font-size:40px;
     }
+    
+    .ocultar{
+        visibility: hidden;
+        display: none;
+    }
+    
+    .oculto{
+        visibility: visible;
+        display: block;
+        
+    }
+    .header-banner {
+        text-align: center;
+    }
+    
+    #menu{
+        text-align: center;
+    }
+    
+    
 }

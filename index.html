@@ -3,10 +3,12 @@
 	<head>
 	  	<meta charset="utf-8">
 	  	<title>User Testing 360°</title>
+	  	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	  	<link rel="stylesheet" href="css/main.css">
 	  	<link rel="stylesheet" href="css/animate.css">
 	  	<link rel="stylesheet" href="css/bootstrap.min.css">
 	  	<link rel="stylesheet" href="css/font-awesome.min.css">
+	  	<link rel="stylesheet" href="iconooos/style.css">
 	  	<link rel="stylesheet" href="css/icomoon.css">
 	  	<link rel="stylesheet" href="css/queries.css">
 	  	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -25,7 +27,7 @@
           </div>
            
         <div class="col-md-9">
-             <nav>
+             <nav class="ocultar">
              <ul class="list-inline list-menu nav nav-pills">
                <li><a href="#servicios">¿Qué me ofrece?</a></li>
                <li><a href="#uso">¿Cómo funciona?</a></li>
@@ -33,6 +35,20 @@
                <li><a href="contact.html">Contáctanos</a></li>
              </ul>
          </nav>
+         
+         <div class="oculto">
+        <ul id="menu">
+          <li><a href="" class="icon-menu"></a>
+            <ul>
+              <li><a href="#servicios">¿Qué me ofrece?</a></li>
+              <li><a href="#uso">¿Cómo funciona?</a></li>
+              <li><a href="#final">¿Por qué usarlo?</a></li>
+              <li><a href="contact.html">Contáctanos</a></li>
+            </ul>  
+          </li>
+        </ul>
+      </div>
+       
         </div>
            </div>
             <div class="frases">
@@ -187,7 +203,7 @@
              <div class="row">
               <div class="col-md-6">
                  <div class="contenido">
-                  <h3>Por qué usar <img src="image/logo-2.jpg" alt="" width="50%" height="50%"></h3>
+                  <h3 class="text-center">Por qué usar <img src="image/logo-2.jpg" alt="" width="50%" height="50%"></h3>
                   <p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio para llegar a millones de personas en segundos, pero ¿Qué pasa si el producto digital que ofreces no es bueno o no se entiende? Pierdes esta enorme oportunidad.Con <a href="#">User Testing 360</a>, puedes entender la experiencia de uso de tu página o producto digital y mejorarla para que satisfaga todas las necesidades de tus usuarios. Con<a href="#">User Testing 360</a> podrás entender:</p>
                   <ul>
                       <li>¿Cómo tu público objetivo verdaderamente usa tu producto?</li>
@@ -242,8 +258,8 @@
                </div>
                <div class="col-md-6">
                   <div class="derecha">
-                   <i class="icon-facebook"></i> 
-                   <i class="icon-twitter"></i> 
+                   <a href=""><i class="icon-facebook"></i></a>
+                   <a href=""><i class="icon-twitter"></i></a> 
                    <br>
                    <br>
                    <br>
