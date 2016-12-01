@@ -4,6 +4,7 @@
   <title>Contacto</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
     
@@ -20,19 +21,19 @@
        </h1>
        <hr>
      <div class="form-group">
-         <label for="inputName" class="control-label col-xs-2">Nombre:</label>
+         <label for="inputName" class="control-label col-xs-2">Nombre <span style="color:red;">*</span></label>
          <div class="col-xs-10">
              <input type="name" class="form-control" placeholder="Nombre">
          </div>
      </div>
      <div class="form-group">
-         <label for="inputEmail" class="control-label col-xs-2">Email:</label>
+         <label for="inputEmail" class="control-label col-xs-2">Email<span style="color:red;">*</span></label>
          <div class="col-xs-10">
              <input type="email" class="form-control" placeholder="Email">
          </div>
      </div>
      <div class="form-group">
-         <label for="inputPassword" class="control-label col-xs-2">Dejame tu Url:</label>
+         <label for="inputPassword" class="control-label col-xs-2">Dejame tu Url<span style="color:red;">*</span></label>
          <div class="col-xs-10">
              <input type="text" class="form-control" placeholder="Asunto">
          </div>
@@ -40,9 +41,13 @@
      <div class="form-group">
          <div class="col-xs-offset-2 col-xs-10">
              <button type="submit" class="btn btn-primary">Enviar</button>
+             <br>
+             <input type="text" class="form-control" style="width:50%;">
          </div>
      </div>
 </form>
+            <p style="float:left;">Powerd by <a href="#">Equipo Laboratoria</a></p>
+            <a href="#" style="float:right;">Report Abuse</a>
              
          </div>
             
